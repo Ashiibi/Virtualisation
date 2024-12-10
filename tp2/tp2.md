@@ -262,7 +262,8 @@ RHOST:PORT  : 127.0.0.1:20006
 MTU         : 1500
 ~~~
 🌞 Wireshark it !
-doratp2.cpapng
+
+tp2/doratp2.pcapng
 
 III. ARP
 
@@ -276,7 +277,7 @@ III. ARP
 ~~~
 🌞 Capturez l'échange ARP avec Wireshark
 
-arptp2.pcapng
+tp2/arptp2.pcapng
 
 🌞 Envoyer une trame ARP arbitraire
 ~~~
@@ -308,8 +309,8 @@ $ sudo arpspoof -r -t 10.2.1.10 10.2.1.254
 ~~~
 🌞 Capture Wireshark arp_mitm.pcap
 
-arp_mitm.pcapng
+tp2/arp_mitm.pcapng
 
 🌞 Réaliser la même attaque avec Scapy
 
-merci internet arp_mitm.py
+merci internet tp2/arp_mitm.py
