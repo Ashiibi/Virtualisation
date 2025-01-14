@@ -138,7 +138,7 @@ Success rate is 100 percent (5/5), round-trip min/avg/max = 60/62/68 ms
 ~~~
 🌞 Capture Wireshark ping_partie1
 
-cf ping_partie
+cf [ping_partie](https://github.com/Ashiibi/Virtualisation/blob/main/tp3/ping_partie1.pcapng)
 
 🌞 Afficher les adresses MAC des routeurs
 ~~~
@@ -639,7 +639,7 @@ une capture Wireshark où on voit les deux requêtes DNS d'un de vos clients
 ainsi que les réponses
 vers les nom ping efrei.fr et dns.tp2.b3
 
-(pingdns.pcapng)[pingdns.pcapng]
+[pingdns](https://github.com/Ashiibi/Virtualisation/blob/main/tp3/pingdns.pcapng)
 
 
 3. HTTP
@@ -720,7 +720,7 @@ query = sr1(IP(dst="dns.tp3.b2", src="10.3.2.10")/UDP(dport=53)/DNS(rd=1,qd=DNSQ
 
 print(query[DNS].summary())
 ~~~
-(spoofdns.pcapng)[dns_flood.pcapng]
+[spoofdns.pcapng](https://github.com/Ashiibi/Virtualisation/blob/main/tp3/dns_flood.pcapng)
 
 🌞 Mettre en place une attaque TCP RST
 
@@ -765,4 +765,4 @@ Ack nb >> 3424035478
 [ 3029.781295 ] device enp0s3 left promiscuous mode
 attaquant@localhost:~$ aclient_loop: send disconnect: Broken pipe
 ~~~
-rst.pcapng
+[rst.pcapng](https://github.com/Ashiibi/Virtualisation/blob/main/tp3/tcp_rst.pcapng)
