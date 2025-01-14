@@ -639,7 +639,7 @@ une capture Wireshark où on voit les deux requêtes DNS d'un de vos clients
 ainsi que les réponses
 vers les nom ping efrei.fr et dns.tp2.b3
 
-pingdns.pcapng
+(pingdns.pcapng)[pingdns.pcapng]
 
 
 3. HTTP
@@ -720,7 +720,7 @@ query = sr1(IP(dst="dns.tp3.b2", src="10.3.2.10")/UDP(dport=53)/DNS(rd=1,qd=DNSQ
 
 print(query[DNS].summary())
 ~~~
-spoofdns.pcapng
+(spoofdns.pcapng)[dns_flood.pcapng]
 
 🌞 Mettre en place une attaque TCP RST
 
